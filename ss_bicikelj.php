@@ -1,26 +1,28 @@
 <?php
 # script is using json format which is generated in that project: https://github.com/zejn/prometapi.git
 
-#known public deploys:
-#http://prevoz.org/api/bicikelj/list/
-#http://opendata.si/promet/bicikelj/list/
-i
+# known public deploys:
+#    http://prevoz.org/api/bicikelj/list/
+#    http://opendata.si/promet/bicikelj/list/
+
 # if you want to have your own server which will poll from original source, here are short instructions for ubuntu  
-#apt-get install python-django
-#apt-get install python-simplejson
-#apt-get install python-lxml
-#apt-get install libgeos-dev
-#apt-get install sqlite3 
+#    apt-get install python-django
+#    apt-get install python-simplejson
+#    apt-get install python-lxml
+#    apt-get install libgeos-dev
+#    apt-get install sqlite3 
 
-#git clone https://github.com/zejn/prometapi.git
-#python manage.py syncdb
-#python manage.py runserver 0.0.0.0:8000
+#    git clone https://github.com/zejn/prometapi.git
+#    python manage.py syncdb
+#    python manage.py runserver 0.0.0.0:8000
 
-#  add following command on your crontab 
-# #python prometapi/manage.py bicikelj_fetch
+# add following command on your crontab 
+#    python prometapi/manage.py bicikelj_fetch
 
 # you can reach required json here
-# #http://<your ip>:8000/promet/bicikelj/list/
+#    http://<your ip>:8000/promet/bicikelj/list/
+
+
 
 # script for cacti scriptserver
 
