@@ -6,7 +6,7 @@ Script is parsing json which is provided in following project (details are writt
 Currently is hardcoded public server so if you just use that script it should work (I suggest that you're using that or another public server just for load balancing the original one).
 
 Usage:
-- import cacti dataquery template or create your own (here is good tutorial, just use Get Script Server Data (Indexed) for data input method in data template)
+- import cacti dataquery template or create your own (here is good tutorial, just use Get Script Server Data (Indexed) for data input method in data template: http://docs.cacti.net/manual:087:3a_advanced_topics.3b_snmp_data_query_walkthrough#snmp_data_query_walkthrough)
 - add the graphs
 
 Known issues:
